@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.7)
+project(Design_Patterns)
+
+set(CMAKE_CXX_STANDARD 11)
+
+
+add_executable(ProxyPattern ProxyPattern/proxypattern.cpp ProxyPattern/filemanager.cpp ProxyPattern/filemanager.h)
+
+add_executable(DecoratorPattern DecoratorPattern/decoratorpattern.cpp DecoratorPattern/photowindow.cpp DecoratorPattern/photowindow.h)
+
+add_executable(ChainOfResponsibilityPattern  ChainOfResponsibilityPattern/chainofresponsibilitypattern.cpp ChainOfResponsibilityPattern/solvehandler.cpp ChainOfResponsibilityPattern/solvehandler.h ChainOfResponsibilityPattern/utility.cpp ChainOfResponsibilityPattern/utility.h ChainOfResponsibilityPattern/methods.cpp ChainOfResponsibilityPattern/methods.h)
