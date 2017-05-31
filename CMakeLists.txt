@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.7)
-project(Design_Patterns)
+project(DesignPatterns)
 
 set(CMAKE_CXX_STANDARD 11)
 
@@ -9,3 +9,7 @@ add_executable(ProxyPattern ProxyPattern/proxypattern.cpp ProxyPattern/filemanag
 add_executable(DecoratorPattern DecoratorPattern/decoratorpattern.cpp DecoratorPattern/photowindow.cpp DecoratorPattern/photowindow.h)
 
 add_executable(ChainOfResponsibilityPattern  ChainOfResponsibilityPattern/chainofresponsibilitypattern.cpp ChainOfResponsibilityPattern/solvehandler.cpp ChainOfResponsibilityPattern/solvehandler.h ChainOfResponsibilityPattern/utility.cpp ChainOfResponsibilityPattern/utility.h ChainOfResponsibilityPattern/methods.cpp ChainOfResponsibilityPattern/methods.h)
+
+add_executable(BuilderPattern BuilderPattern/builderpattern.cpp BuilderPattern/scenebuilder.h BuilderPattern/scene.cpp BuilderPattern/scene.h BuilderPattern/scenebuilder2d.cpp BuilderPattern/scenebuilder2d.h BuilderPattern/director.cpp BuilderPattern/director.h)
+
+add_executable(AbstractFactoryPattern AbstractFactoryPattern/abstractfactorypattern.cpp AbstractFactoryPattern/clothes.cpp AbstractFactoryPattern/clothes.h AbstractFactoryPattern/clothesfactory.cpp AbstractFactoryPattern/clothesfactory.h)

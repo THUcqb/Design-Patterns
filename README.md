@@ -11,9 +11,11 @@ Design Patterns
 
 <h2 id="documentation">Documentation</h2>
 
-*   <a href="/ProxyPattern/README.md" title="Documentation">Proxy Pattern</a>
-*   <a href="/DecoratorPattern/README.md" title="Documentation">Decorator Pattern</a>
+*   <a href="/AbstractFactoryPattern/README.md" title="Documentation">Abstract Factory Pattern</a>
+*   <a href="/BuilderPattern/README.md" title="Documentation">Builder Pattern</a>
 *   <a href="/ChainOfResponsibilityPattern/README.md" title="Documentation">Chain of Responsibility Pattern</a>
+*   <a href="/DecoratorPattern/README.md" title="Documentation">Decorator Pattern</a>
+*   <a href="/ProxyPattern/README.md" title="Documentation">Proxy Pattern</a>
 
 
 <h2 id="build">Build</h2>
